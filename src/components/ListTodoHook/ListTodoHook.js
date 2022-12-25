@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ListTodoHook = (props) => {
-    const listTodo = props.getShowListTodo()
+    const listTodoCheck = props.getShowListTodo()
     const isAllCheck = props.isAllCheckbox()
     return (
         <section className="main" data-reactid=".0.1">
@@ -17,7 +17,7 @@ const ListTodoHook = (props) => {
             />
             <label htmlFor="toggle-all" data-reactid=".0.1.1" />
             <ul className="todo-list" data-reactid=".0.1.2">
-                {listTodo.map((item, index) => {
+                {listTodoCheck.map((item, index) => {
                     return (
                         <li
                             className=""

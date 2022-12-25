@@ -24,7 +24,7 @@ const TodoHookFilter = (props) => {
             href="#/"
             data-reactid=".0.2.1.0.0"
             onClick={() => {
-              props.onShoWList(BUTTON.all)
+              props.onShowList(BUTTON.all)
             }}
           >
             All
@@ -37,7 +37,7 @@ const TodoHookFilter = (props) => {
             href="#/"
             data-reactid=".0.2.1.2.0"
             onClick={() => {
-              props.onShoWList(BUTTON.active)
+              props.onShowList(BUTTON.active)
             }}
           >
             Active
@@ -50,7 +50,7 @@ const TodoHookFilter = (props) => {
             href="#/"
             data-reactid=".0.2.1.4.0"
             onClick={() => {
-              props.onShoWList(BUTTON.complete)
+              props.onShowList(BUTTON.complete)
             }}
           >
             Completed
